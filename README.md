@@ -89,8 +89,6 @@ $ docker build -t medium_to_markdown . --no-cache
 $ docker run --name [your_container_name] -v [host_project_path]:/home/ZMediumToMarkdown -id medium_to_markdown
 
 $ docker exec -it [your_container_name] /bin/bash
-
-$ bundle update --bundler
 ```
 3. use Usage Command up above & check your physical host [host_project_path]/output folder you will see the medium article already transfer type to markdown.
 
